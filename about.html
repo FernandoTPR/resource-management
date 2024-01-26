@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" href="CSS/about.css">
+        <script src="js/about.js"></script>
+    </head>
+    <body>
+    <table class="tbl1">
+        <tr>
+          <th><img class="im1" src="images/logo.png" alt="Logo" height="200" width="200"></th>
+          <th class="th1">Car Rental Service</th>
+          <th>
+            <ul style="text-align:center; background:transparent">
+              <li><a href="Registation.html"><img style="text-align: center;" src="images/userlogo.png" alt="User account photo" width="60px" height="60px"></a></li>
+              <li><div class="dropdwn">
+                    <button class="btn1" >Sign up / Login</button>
+                      <div class="dropdwn-list">
+                        <a href="register.html">Sign up</a>
+                        <a href="login.html">Login</a>
+                      </div>
+                    </div>
+              </li>
+            </ul>
+          </th>
+        </tr>
+    </table>
+    
+    <!--Navigation bar-->
+        <ul>  
+          <li><a  href="#">Home</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="vehiclefleet.html">Vehicle fleet</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    <table>
+            <tr>
+                <th><img src="images/about3.jpg" height="500" width="1000"></th>
+                <th class="th2"><i>-About-<br> -Our-<br> -Service-</i></th>
+            </tr> 
+    </table><br><br>
+        <div>
+        <button type="button" id="btn1" onclick="loadData('btn1')">About Us</button>
+        <button type="button" id="btn2" onclick="loadData('btn2')">Our Vision</button>
+        <button type="button" id="btn3" onclick="loadData('btn3')">Mission Statement</button>
+        <button type="button" id="btn4" onclick="loadData('btn4')">Managment Team</button><br><br>
+        </div>
+<div class="aDiv1"> 
+    <p id="para"></p>
+</div>
+    <hr>
+    <footer style="background-color:rgb(121, 16, 16); height:100px; text-align: center;color: rgb(243, 234, 234);" >
+    <p> privacy police| Accessibility <br> </p>
+    </footer>
+</html>
